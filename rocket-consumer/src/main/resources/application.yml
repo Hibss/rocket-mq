@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet:
+    context-path:
+
+spring:
+  application:
+    name: rocketMQ-consumer
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+rocketmq:
+  config:
+    namesrvAddr: localhost:9876
+    isVIPChannel:
+    dataPath : d:/test
+    enableDashBoardCollect: true
+    producerGroup: sheng
+
